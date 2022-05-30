@@ -7,7 +7,7 @@ The purpose of this challenge was to use SQL to query an employee database to de
 ## Results
 
 * Our first table, created by joining the Employees and Titles tables, had multiple rows for employees who had held more than one title and included employees that had already retired.
-![Retirement_titles query](/Resources/retirement_title.png)
+![Retirement_titles query](/Resources/retirement_titles.png)
 * When we filtered for distinct employees who were still with the company, we reduced the number of rows from 133,776 to 72,458.
 ![Unique_titles query](/Resources/unique_titles.png)
 * Grouping the retiring employees by title, we found that most retiring employees are Senior Engineers or Senior Staff.
